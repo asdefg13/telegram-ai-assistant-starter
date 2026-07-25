@@ -1,0 +1,20 @@
+# Secrets — never commit the real thing, only .env.example
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Tooling
+.mypy_cache/
+.DS_Store
+*.log
