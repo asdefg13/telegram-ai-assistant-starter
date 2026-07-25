@@ -203,7 +203,9 @@ class CreateLeadTool(Tool):
 
 ```python
 # app/services/tools/__init__.py
-return ToolRegistry([GetWeatherTool(http_client), SaveNoteTool(), SearchNotesTool(), CreateLeadTool()])
+return ToolRegistry(
+    [GetWeatherTool(http_client), SaveNoteTool(), SearchNotesTool(), CreateLeadTool()]
+)
 ```
 
 ---
