@@ -1,6 +1,6 @@
 # Telegram AI Assistant — Starter
 
-[![CI](https://github.com/asdefg13/telegram-ai-assistant-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/asdefg13/telegram-ai-assistant-starter/actions/workflows/ci.yml)
+[![CI](https://github.com/wanderfool95/telegram-ai-assistant-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/wanderfool95/telegram-ai-assistant-starter/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![aiogram 3](https://img.shields.io/badge/aiogram-3.x-2CA5E0?logo=telegram&logoColor=white)](https://docs.aiogram.dev/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-function%20calling-412991?logo=openai&logoColor=white)](https://platform.openai.com/docs/guides/function-calling)
@@ -90,7 +90,7 @@ Try it: *“remember that my landlord is called Ana”* → later → *“who is
 ## Quick start
 
 ```bash
-git clone https://github.com/asdefg13/telegram-ai-assistant-starter.git
+git clone https://github.com/wanderfool95/telegram-ai-assistant-starter.git
 cd telegram-ai-assistant-starter
 cp .env.example .env      # fill in BOT_TOKEN and OPENAI_API_KEY
 ```
